@@ -2,7 +2,7 @@
   "name": "emino",
   "version": "0.1.0",
   "private": true,
-    "homepage": "https://therealemino.github.io/therealemino/",
+  "homepage": "https://therealemino.github.io/emino/",
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@testing-library/jest-dom": "^5.11.10",
@@ -21,7 +21,7 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-+   "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
