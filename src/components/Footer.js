@@ -42,8 +42,8 @@ export default function Footer(props) {
                 <hr/>
               </div>
               <div className="text-center">
-                <a href="mailto: ejeiokekeemmanuel@gmail.com" className="text-md md:text-xl bg-black bg-opacity-60 p-6 m-2 rounded-xl block"><span className="fa fa-envelope pr-2"></span> ejeiokekeemmanuel@gmail.com</a>
-                <a href="tel: +2349032235567" className="text-md md:text-xl bg-black bg-opacity-60 p-6 m-2 rounded-xl block"><span className="fa fa-phone pr-3"></span> 09032234467</a>
+                <a href="mailto: ejeiokekeemmanuel@gmail.com" target="_blank" rel="noreferrer" className="text-md md:text-xl bg-black bg-opacity-60 p-6 m-2 rounded-xl block"><span className="fa fa-envelope pr-2"></span> ejeiokekeemmanuel@gmail.com</a>
+                <a href="https://api.whatsapp.com/send?phone=2349032234467" target="_blank" rel="noreferrer" className="text-md md:text-xl bg-black bg-opacity-60 p-6 m-2 rounded-xl block"><span className="fa fa-whatsapp pr-3"></span> 09032234467</a>
               </div>
               <Socials />
             </div>
