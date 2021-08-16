@@ -1,4 +1,4 @@
-import React, { useState,useRef } from 'react';
+import React, { useState,useRef,useEffect } from 'react';
 import './App.css';
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
@@ -6,8 +6,13 @@ import About from './components/About';
 import Resume from './components/Resume/Resume';
 import Portfolio from './components/Portfolio/Portfolio';
 import Footer from './components/Footer';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  })
   const [darkMode, setDarkMode] = useState(false);
   const homeRef = useRef(1);
   const aboutRef = useRef(2);

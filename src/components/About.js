@@ -3,7 +3,7 @@ import Socials from './Socials'
 
 export default function About(props) {
     return (
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-svg-bg" id="about" ref={props.refProp}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-svg-bg" id="about" ref={props.refProp} data-aos="zoom-in" data-aos-duration="2000">
           <div className="md:grid md:grid-cols-12 gap-4 py-32">
             <div className="col-start-1 col-end-4">
               <div className="bg-profile-image h-52 w-52 lg:h-64 lg:w-64 bg-cover rounded-full mx-auto my-auto">
