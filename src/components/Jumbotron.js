@@ -34,7 +34,7 @@ export default function Jumbotron(props) {
   const [open, setOpen] = useState(true)
 
     return (
-        <div className="bg-mobile-jumbotron md:bg-desktop-jumbotron md:bg-right bg-cover bg-center bg-fixed h-screen" onClick={() => setOpen((state) => !state)} ref={props.homeRefProp}>
+        <div className="bg-mobile-jumbotron md:bg-desktop-jumbotron md:bg-right bg-cover bg-center bg-fixed h-screen z-10" onClick={() => setOpen((state) => !state)} ref={props.homeRefProp}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full"> {/*CONTAINER*/}
             <div className="font-nunito py-20 w-full flex items-center h-full justify-evenly">
               <div className="text-gray-300 md:text-whitish-blue h-2/5">

@@ -4,7 +4,7 @@ import ResumeTile from "./ResumeTile";
 export default function Resume(props) {
   const educationData = [
     {
-      date: "October 2015 - Present",
+      date: "October 2015 - July 2021",
       name: "B.Eng, Electronic Engineering",
       school: "University of Nigeria",
       link: "https://www.unn.edu.ng/"
@@ -49,33 +49,41 @@ export default function Resume(props) {
 
   const experienceData = [
     {
-      date: "August 2019 - Present",
+      date: "August 2019 - January 2021",
       name: "Brand Ambassador",
       body: "Conduct day-to-day coordination, planning, and implementation of all activities involved in speaking about the company to the public as well as working closely with webapp clients of the company",
       organization: "Nexbuy District",
       link: "https://www.nexbuydistrict.com/"
     },
     {
-      date: "January 2021 - Present",
-      name: "Head of NEXSCROW",
-      body: "Regulate payment of the funds required for parties involved in a given transaction by holding and ensuring security of funds and all necessary obligations are met.",
-      organization: "NEXSCROW [A subsidiary of Nexbuy District]",
-      link: "https://nexscrow.herokuapp.com/"
+      date: "July 2019 - December 2019",
+      name: "Student Intern",
+      body: "Worked with the Drawing Engineer/Draftsman in editing drawing structures for the then-ongoing project: 'Refurbishment of a Single Point Mooring Buoy'",
+      organization: "West African Oilfield Services Ltd",
+      link: "https://www.businesslist.com.ng/company/167540/west-african-oilfield-services-limited"
     },
     {
       date: "November 2020 - Present",
-      name: "Volunteer",
+      name: "Volunteer Intern",
       body: "Front-end web developer and 'in-person' educator",
       organization: "Coriftech Solutions Ltd",
       link: "https://coriftech.com/"
     },
     {
-      date: "July 2019 - December 2019",
-      name: "Student Intern",
-      body: "Worked with the Drawing Engineer/Draftsman in editing drawing structures for the then-ongoing project: 'Refurbishment of a Single Point Mooring Buoy'",
-      organization: "West African Oilfield Services Ltd",
-      link: "https://coriftech.com/"
-    }
+      date: "January 2021 - Present",
+      name: "Head of Department",
+      body: "Regulate payment of the funds required for parties involved in a given transaction by holding and ensuring security of funds and all necessary obligations are met.",
+      organization: "NEXSCROW [A subsidiary of Nexbuy District]",
+      link: "https://nexscrow.herokuapp.com/"
+    },
+    {
+      date: "March 2021 - Present",
+      name: "Front End Developer",
+      body: "Collaborated with product designers and other developers to build the version 2 of the Nexbuy E-commerce web-app .",
+      organization: "Nexbuy District",
+      link: "https://nexbuyv2.netlify.app/"
+    },
+
   ]
 
     return (
