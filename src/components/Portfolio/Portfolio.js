@@ -5,7 +5,7 @@ export default function Portfolio(props) {
   const portfolioData = [
     {
       name: "Weather App",
-      link: "https://therealemino.github.io/gray2green/index.html",
+      link: "https://emino-weather-app.surge.sh/",
       logo: "https://i.pinimg.com/originals/30/b1/1a/30b11a92a85361de088b6d668785f0aa.jpg",
       desc: "Simple weather app. Built with Nuxt.js, Openweathermap (API), Vuetify (style) and Chart.js (data-visualisation)"
     },

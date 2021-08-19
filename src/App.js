@@ -11,7 +11,9 @@ import 'aos/dist/aos.css'
 
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      disable: 'mobile'
+    })
   })
   const [darkMode, setDarkMode] = useState(false);
   const homeRef = useRef(1);
