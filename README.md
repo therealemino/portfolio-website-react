@@ -2,7 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Site hosted on gh-pages (https://therealemino.github.io/portfolio-website/).
+Site hosted on:
+
+gh-pages: https://therealemino.github.io/portfolio-website/
+
+netlify: https://therealemino.netlify.app/
 
 ## Available Scripts
 
