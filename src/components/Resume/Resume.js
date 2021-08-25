@@ -101,7 +101,7 @@ export default function Resume(props) {
               </div>
             </div>
           </div>
-          <div className="text-center md:text-left px-6 "><a href="https://drive.google.com/file/d/1w_uF114aim_MgjwF2OYApCKb5G_QJCDb/view?usp=sharing" target="_blank" rel="noreferrer" className="text-medium-blue dark:text-cream hover:text-dark-blue dark:hover:text-gray-300 font-semibold">Click here to view my full resume (PDF)</a></div>
+          <div className="text-center md:text-left px-6 "><a href="https://drive.google.com/file/d/1QSAnd125w9CmrSseLyXWVnVu_HQYa612/view?usp=sharing" target="_blank" rel="noreferrer" className="text-medium-blue dark:text-cream hover:text-dark-blue dark:hover:text-gray-300 font-semibold">Click here to view my full resume (PDF)</a></div>
         </div>
     )
 }
