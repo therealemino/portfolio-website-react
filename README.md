@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# My Personal Website
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Site hosted on gh-pages (https://therealemino.github.io/portfolio-website/).
 
 ## Available Scripts
 
