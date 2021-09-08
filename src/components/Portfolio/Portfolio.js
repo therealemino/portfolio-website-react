@@ -10,24 +10,6 @@ export default function Portfolio(props) {
       desc: "Simple weather app. Built with Nuxt.js, Openweathermap (API), Vuetify (style) and Chart.js (data-visualisation)"
     },
     {
-      name: "Gray2Green Movement",
-      link: "https://therealemino.github.io/gray2green/index.html",
-      logo: "https://github.com/therealemino/gray2green/blob/main/images/logo.png?raw=true",
-      desc: "Mirrored website of Gray2green.org with Bootstrap 4"
-    },
-    {
-      name: "Simon Game",
-      link: "https://therealemino.github.io/practice-repo/simon%20game/",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Simon_Electronic_Game.jpg",
-      desc: "Online version of the Simon Game built with Vanilla Javascript"
-    },
-    {
-      name: "ToDo List",
-      link: "https://therealemino.github.io/vue-todo-app/index.html",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
-      desc: "Single page todo list application built with Vue.js and  Tailwind.css"
-    },
-    {
       name: "Zettech Integrated Services",
       link: "https://therealemino.github.io/zettech/index.html",
       logo: "https://github.com/therealemino/zettech/blob/master/images/logo-sm.jpg?raw=true",
@@ -38,6 +20,24 @@ export default function Portfolio(props) {
       link: "https://secure-coast-09059.herokuapp.com/",
       logo: "https://secure-coast-09059.herokuapp.com/images/newsletter-icon.png",
       desc: "Simple newsletter sign-up page built with Bootstrap, Node.js and Mailchimp api"
+    },
+    {
+      name: "Simon Game",
+      link: "https://therealemino.github.io/practice-repo/simon%20game/",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Simon_Electronic_Game.jpg",
+      desc: "Online version of the Simon Game built with Vanilla Javascript"
+    },
+    {
+      name: "Gray2Green Movement",
+      link: "https://therealemino.github.io/gray2green/index.html",
+      logo: "https://github.com/therealemino/gray2green/blob/main/images/logo.png?raw=true",
+      desc: "Mirrored website of Gray2green.org with Bootstrap 4"
+    },
+    {
+      name: "ToDo List",
+      link: "https://therealemino.github.io/vue-todo-app/index.html",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
+      desc: "Single page todo list application built with Vue.js and  Tailwind.css"
     }
   ]
 

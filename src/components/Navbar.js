@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
+// import { Menu, Transition } from '@headlessui/react'
 
 export default function Navbar(props) {
   const [navItems,setNavItems] = useState([
@@ -9,15 +10,15 @@ export default function Navbar(props) {
       {name: 'CONTACT', active:false, id:"5"}
   ]);
 
-  const activeNavStyle = "bg-dark-blue dark:bg-light-brownish-purple text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xs md:text-sm font-medium cursor-pointer";
-  const normalNavStyle = "text-navbar-brown dark:text-gray-300 hover:bg-medium-blue dark:hover:bg-brownish-purple hover:text-gray-300 px-3 py-2 rounded-md text-xs md:text-sm font-medium duration-300 cursor-pointer";
+  const activeNavStyle = "bg-dark-blue dark:bg-light-brownish-purple text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xs md:text-sm font-semibold cursor-pointer";
+  const normalNavStyle = "text-navbar-brown dark:text-gray-300 hover:bg-medium-blue dark:hover:bg-brownish-purple hover:text-gray-300 px-3 py-2 rounded-md text-xs md:text-sm font-semibold duration-300 cursor-pointer";
 
   const navList = navItems.map((item) =>
     <a href={item.href} className = {item.active ? activeNavStyle : normalNavStyle} key={item.id} id={item.id} onClick={toggleActive} >{item.name}</a>
   );
 
   const navListMobile = navItems.map((item) =>
-    <a href={item.href} className = {`${item.active ? "bg-dark-green dark:bg-light-brownish-purple text-gray-300" : "text-navbar-brown"} " focus:outline-none duration-300 block dark:text-gray-300 font-medium hover:bg-medium-green hover:text-gray-300 dark:hover:bg-brownish-purple px-3 py-2 rounded-md text-xs md:text-sm font-medium cursor-pointer"`} key={item.id} id={item.id} onClick={toggleActive}>{item.name}</a>
+    <a href={item.href} className = {`${item.active ? "bg-dark-green dark:bg-light-brownish-purple text-gray-300" : "text-navbar-brown"} " focus:outline-none duration-300 block dark:text-gray-300 font-semibold hover:bg-medium-green hover:text-gray-300 dark:hover:bg-brownish-purple px-3 py-2 rounded-md text-xs md:text-sm font-medium cursor-pointer"`} key={item.id} id={item.id} onClick={toggleActive}>{item.name}</a>
   );
 
   function toggleActive (e) {
@@ -71,7 +72,7 @@ export default function Navbar(props) {
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                   <div className="flex items-center">
-                    <div className="block md:hidden text-gray-800 dark:text-gray-300 font-display font-nunito text-2xl"><a href="/">therealemino</a></div>
+                    <div className="block md:hidden text-gray-800 dark:text-gray-300 font-display font-nunito font-bold text-sm"><a href="/">Ejei-Okeke Emmanuel</a></div>
                     <div className="hidden md:block"> {/* HIDE CONTENT (expanded nav-list) ON PHONES. SHOW FOR LAPTOPS AND TABLETS*/}
                       {navList}
                     </div>
@@ -88,9 +89,10 @@ export default function Navbar(props) {
                       </div>
                   </div>
                 </div>
-                <div className={`${isOpen ? "block" : "hidden"} " md:hidden px-1 pt-2 pb-4 duration-300"`}>{/* SHOW CONTENT (expanded nav-list) ON PHONES. HIDE FOR LAPTOPS AND TABLETS*/}
+                <div className={`${isOpen ? "block" : "hidden"} " md:hidden px-1 pt-2 pb-4 transition ease-out duration-100"`}>{/* SHOW CONTENT (expanded nav-list) ON PHONES. HIDE FOR LAPTOPS AND TABLETS*/}
                   {navListMobile}
                 </div>
+
               </div>
             </nav>
           </div>
