@@ -1,3 +1,9 @@
 [[redirects]]
   from = "http://therealemino.netlify.app/"
   to = "https://therealemino.vercel.app/"
+
+[[redirects]]
+  from = "/"
+  to = "https://therealemino.vercel.app/"
+  status = 301
+  force = true
